@@ -1,0 +1,3 @@
+{"id":"payment-timeout","events":[{"type":"tool","at_ms":0,"name":"charge","operation_id":"invoice-demo-1","idempotent":false,"status":"timeout"},{"type":"tool","at_ms":1000,"name":"charge","operation_id":"invoice-demo-1","idempotent":false,"status":"ok"},{"type":"handoff","at_ms":9000}]}
+{"id":"lookup-failure","events":[{"type":"tool","at_ms":0,"name":"lookup","operation_id":"ticket-demo-2","idempotent":true,"status":"error"},{"type":"answer","at_ms":1500}]}
+{"id":"healthy-lookup","events":[{"type":"tool","at_ms":0,"name":"lookup","operation_id":"ticket-demo-3","idempotent":true,"status":"ok"},{"type":"answer","at_ms":600}]}
